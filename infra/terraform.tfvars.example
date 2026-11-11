@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars (git-ignored) and edit.
+aws_region         = "ap-south-1"
+project_name       = "olist-pipeline"
+alert_email        = "you@example.com"
+monthly_budget_usd = 10
+enable_redshift    = false
+# Set the password with an environment variable instead of this file:
+#   export TF_VAR_redshift_admin_password='...'

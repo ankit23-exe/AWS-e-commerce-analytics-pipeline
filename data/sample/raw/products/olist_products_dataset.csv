@@ -1,0 +1,11 @@
+product_id,product_category_name,product_name_lenght,product_description_lenght,product_photos_qty,product_weight_g,product_length_cm,product_height_cm,product_width_cm
+p01,informatica_acessorios,41,310,2,250,11,6,9
+p02,esporte_lazer,42,320,3,300,12,7,10
+p03,moveis_decoracao,43,330,4,350,13,8,11
+p04,brinquedos,44,340,1,400,14,9,12
+p05,beleza_saude,45,350,2,450,15,10,13
+p06,informatica_acessorios,46,360,3,500,16,11,14
+p07,esporte_lazer,47,370,4,550,17,12,15
+p08,moveis_decoracao,48,380,1,600,18,13,16
+p09,,45,350,2,500,20,10,15
+p10,categoria_sem_traducao,50,400,3,700,25,12,18

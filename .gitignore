@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Terraform: never commit state, plans or real variable files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+terraform.tfvars
+*.auto.tfvars
+infra/.build/
+
+# Local pipeline output and real data (the full dataset is licensed separately: download it from Kaggle)
+output/
+data/olist/
+*.csv.zip
+
+# Secrets
+.env
+*.pem
+.aws/
+
+# macOS
+.DS_Store
